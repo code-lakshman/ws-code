@@ -1,0 +1,7 @@
+ws_code.generate:
+  path: '/admin/structure/qr_code'
+  defaults:
+    _title: 'Generate QR Code'
+    _controller: '\Drupal\ws_code\Controller\QrCodeController::generateQrCode'
+  requirements:
+    _permission: 'access content'

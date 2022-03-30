@@ -1,0 +1,5 @@
+name: WS code test
+type: module
+core_version_requirement: ^8 || ^9
+description: A custom module for WS test
+package: WS Code

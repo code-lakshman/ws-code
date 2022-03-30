@@ -1,0 +1,28 @@
+uuid: 84fb55cd-ce4a-49f4-b7cd-718fa8a45ef8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - ws_code
+  theme:
+    - bartik
+id: qrcodeblock1_2
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: qrcode1_block
+settings:
+  id: qrcode1_block
+  label: 'Scan here on your mobile to purchase this product'
+  label_display: visible
+  provider: ws_code
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      products: products

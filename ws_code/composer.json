@@ -1,0 +1,16 @@
+{
+  "name": "ws/ws_code",
+  "description": "A custom moduel for WS test.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "lakshman",
+      "homepage": "https://www.drupal.org/u/lakshman5",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "endroid/qr-code": "^4.4.7"
+  }
+}
